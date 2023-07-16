@@ -54,8 +54,7 @@ No entanto, é importante considerar que o uso de múltiplos loops também pode 
 desempenho do dispositivo de hardware. Cada loop adicional requer mais operações de criptografia, o que pode resultar em 
 um aumento do tempo de processamento. Portanto,  a opção  ideal seria a figura mostrada no item b) CBC com 3 loops.
 
-7.
-Crie um software que possa encriptar e decriptar no modo cipher block chaining usando umadas seguintes cifras: módulo affine
+ 7. Crie um software que possa encriptar e decriptar no modo cipher block chaining usando umadas seguintes cifras: módulo affine
  256, módulo Hill 256, S-DES, DES. Teste os dados para S-DES usando um vetor de inicialização binário de 1010 1010. Um texto 
 claro binário de 0000 0001 0010 0011 encriptado com uma chave binária de 01111 11101 deverá dar um texto claro binário de 
 1111 0100 0000 1011. A decriptação deverá funcionar de modo correspondente. Resposta no arquivo de extensão "ipynb".
