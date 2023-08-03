@@ -1,12 +1,11 @@
-##Atividade
+## Atividade
 
 1) Qual é a diferença entre aleatoriedades estatísticas e imprevisibilidade?
-	A aleatoriedade é a propriedade estatística que refere-se à variabilidade natural em fenômenos, é utilizado métodos e modelos para entender
- e quantificar essa aleatoriedadede.
-       Por sua vez, a impresivibilidade é a incapacidade de prever com precisão o resultado de um evento ou comportamento em um sistema particular. 
+	 aleatoriedade é a propriedade estatística que refere-se à variabilidade natural em fenômenos, é utilizado métodos e modelos para entender e quantificar essa aleatoriedade de.
+       Por sua vez, a imprevisibilidade é a incapacidade de prever com precisão o resultado de um evento ou comportamento em um sistema particular. 
 Sendo assim, a diferença entre aleatoriedades estatísticas e imprevisibilidade está na forma como são aplicadas. A aleatoriedade é usada para descrever 
 uma propriedade estatística bem definida, usada em estudos estatísticos para representar a incerteza inerente aos resultados de um experimento ou evento.
-Por outro lado, a imprevisibilida implica que não há maneira de prever com certeza os resultados futuros com base nos conhecimentos atuais. 
+Por outro lado, a imprevisibilidade implica que não há maneira de prever com certeza os resultados futuros com base nos conhecimentos atuais
 
 2) Liste considerações de projeto importantes para uma cifra de fluxo.
 Considerações de projeto importantes para uma cifra de fluxo:
@@ -14,14 +13,14 @@ Considerações de projeto importantes para uma cifra de fluxo:
  2. O fluxo de chaves deverá se aproximar o máximo possível das propriedades de um fluxo de número aleatório verdadeiro.
  3. Para a proteção contra ataques de força bruta, a chave precisa ser suficientemente longa.
 
-3)Por que não é desejável reutilizar uma chave de cifra de fluxo?
+3) Por que não é desejável reutilizar uma chave de cifra de fluxo?
 	A reutilização de uma chave de cifra de fluxo não é recomendada devido às vulnerabilidades que podem surgir. Um dos riscos é o ataque de chave 
 reutilizada,onde um adversário intercepta duas mensagens criptografadas com a mesma chave e pode calcular facilmente o xor das duas mensagens, expondo 
 potencialmente parte ou todo o conteúdo da mensagem mais longa. Outro perigo é o ataque de alteração de bits, em que um adversário pode modificar o 
 conteúdo de uma mensagem sem conhecer a chave, realizando o xor da porção do texto cifrado que ele conhece com a alteração desejada.Esse ataque pode 
 ser prevenido incluindo um código de autenticação de mensagem. 
 
-4)Que operações primitivas são usadas no RC4?
+4) Que operações primitivas são usadas no RC4?
 O algoritmo RC4 utiliza várias operações primitivas para seu funcionamento. Algumas dessas operações incluem:
 - Inicialização de vetores: O algoritmo começa inicializando dois vetores, o vetor de estado (S) e o vetor de fluxo (T). Esses vetores são preenchidos 
 com valores sequenciais de 0 a 255.
